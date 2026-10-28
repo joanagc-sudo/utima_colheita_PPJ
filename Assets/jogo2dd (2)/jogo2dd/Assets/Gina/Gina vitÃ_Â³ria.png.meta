@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: c841ba79064b0b74d84b63f5b4c1f25e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7000525857472129083
+    second: "Gina vit\xC3_\xC2\xB3ria_0"
+  - first:
+      213: -5432400874588416777
+    second: "Gina vit\xC3_\xC2\xB3ria_1"
+  - first:
+      213: 2340077655358682875
+    second: "Gina vit\xC3_\xC2\xB3ria_2"
+  - first:
+      213: -4482446064016374341
+    second: "Gina vit\xC3_\xC2\xB3ria_3"
+  - first:
+      213: 8530627821855119142
+    second: "Gina vit\xC3_\xC2\xB3ria_4"
+  - first:
+      213: 4216038324014455306
+    second: "Gina vit\xC3_\xC2\xB3ria_5"
+  - first:
+      213: 1449194611671287825
+    second: "Gina vit\xC3_\xC2\xB3ria_6"
+  - first:
+      213: -8331570495325894702
+    second: "Gina vit\xC3_\xC2\xB3ria_7"
+  - first:
+      213: 2512675591239716497
+    second: "Gina vit\xC3_\xC2\xB3ria_8"
+  - first:
+      213: 2179766727723372020
+    second: "Gina vit\xC3_\xC2\xB3ria_9"
+  - first:
+      213: -1966356741221564845
+    second: "Gina vit\xC3_\xC2\xB3ria_10"
+  - first:
+      213: -5877372914374757824
+    second: "Gina vit\xC3_\xC2\xB3ria_11"
+  - first:
+      213: -500146900856353369
+    second: "Gina vit\xC3_\xC2\xB3ria_12"
+  - first:
+      213: -7988381926839030991
+    second: "Gina vit\xC3_\xC2\xB3ria_13"
+  - first:
+      213: -3068664160025010653
+    second: "Gina vit\xC3_\xC2\xB3ria_14"
+  - first:
+      213: 1715472031250442302
+    second: "Gina vit\xC3_\xC2\xB3ria_15"
+  - first:
+      213: 8654140288528593077
+    second: "Gina vit\xC3_\xC2\xB3ria_16"
+  - first:
+      213: 1437062757623462376
+    second: "Gina vit\xC3_\xC2\xB3ria_17"
+  - first:
+      213: -7034795535137922314
+    second: "Gina vit\xC3_\xC2\xB3ria_18"
+  - first:
+      213: -2380212655178642433
+    second: "Gina vit\xC3_\xC2\xB3ria_19"
+  - first:
+      213: 223689833010436845
+    second: "Gina vit\xC3_\xC2\xB3ria_20"
+  - first:
+      213: 7013844116785864783
+    second: "Gina vit\xC3_\xC2\xB3ria_21"
+  - first:
+      213: -4739654438062300843
+    second: "Gina vit\xC3_\xC2\xB3ria_22"
+  - first:
+      213: 1156452435792061150
+    second: "Gina vit\xC3_\xC2\xB3ria_23"
+  - first:
+      213: 3198175602005120451
+    second: "Gina vit\xC3_\xC2\xB3ria_24"
+  - first:
+      213: 7080751662354917208
+    second: "Gina vit\xC3_\xC2\xB3ria_25"
+  - first:
+      213: 2651426762301811395
+    second: "Gina vit\xC3_\xC2\xB3ria_26"
+  - first:
+      213: -5995895859676420494
+    second: "Gina vit\xC3_\xC2\xB3ria_27"
+  - first:
+      213: 6137249071187264137
+    second: "Gina vit\xC3_\xC2\xB3ria_28"
+  - first:
+      213: -3011451279427789271
+    second: "Gina vit\xC3_\xC2\xB3ria_29"
+  - first:
+      213: -3389018557317484928
+    second: "Gina vit\xC3_\xC2\xB3ria_30"
+  - first:
+      213: 8324796092109335919
+    second: "Gina vit\xC3_\xC2\xB3ria_31"
+  - first:
+      213: 8293352296293250939
+    second: "Gina vit\xC3_\xC2\xB3ria_32"
+  - first:
+      213: -3650398604103903790
+    second: "Gina vit\xC3_\xC2\xB3ria_33"
+  - first:
+      213: -3459610916777199220
+    second: "Gina vit\xC3_\xC2\xB3ria_34"
+  - first:
+      213: -3198752701062291122
+    second: "Gina vit\xC3_\xC2\xB3ria_35"
+  - first:
+      213: -1368981555379858954
+    second: "Gina vit\xC3_\xC2\xB3ria_36"
+  - first:
+      213: -2450287009764537108
+    second: "Gina vit\xC3_\xC2\xB3ria_37"
+  - first:
+      213: -6899634169482217525
+    second: "Gina vit\xC3_\xC2\xB3ria_38"
+  - first:
+      213: -2305273561821462324
+    second: "Gina vit\xC3_\xC2\xB3ria_39"
+  - first:
+      213: -232899149591184571
+    second: "Gina vit\xC3_\xC2\xB3ria_40"
+  - first:
+      213: 8127121085421090073
+    second: "Gina vit\xC3_\xC2\xB3ria_41"
+  - first:
+      213: 8602802738635150381
+    second: "Gina vit\xC3_\xC2\xB3ria_42"
+  - first:
+      213: -1093503908709645046
+    second: "Gina vit\xC3_\xC2\xB3ria_43"
+  - first:
+      213: -1619793959823305825
+    second: "Gina vit\xC3_\xC2\xB3ria_44"
+  - first:
+      213: 8605039204113257963
+    second: "Gina vit\xC3_\xC2\xB3ria_45"
+  - first:
+      213: 7850779940928917241
+    second: "Gina vit\xC3_\xC2\xB3ria_46"
+  - first:
+      213: 6685068394297196577
+    second: "Gina vit\xC3_\xC2\xB3ria_47"
+  - first:
+      213: 5958916630554730334
+    second: "Gina vit\xC3_\xC2\xB3ria_48"
+  - first:
+      213: -8412502313790154907
+    second: "Gina vit\xC3_\xC2\xB3ria_49"
+  - first:
+      213: 4879079759486030280
+    second: "Gina vit\xC3_\xC2\xB3ria_50"
+  - first:
+      213: 7669235321693401955
+    second: "Gina vit\xC3_\xC2\xB3ria_51"
+  - first:
+      213: -5781211152330815843
+    second: "Gina vit\xC3_\xC2\xB3ria_52"
+  - first:
+      213: -5798690477320471822
+    second: "Gina vit\xC3_\xC2\xB3ria_53"
+  - first:
+      213: -8513176118271938026
+    second: "Gina vit\xC3_\xC2\xB3ria_54"
+  - first:
+      213: 696617655126008091
+    second: "Gina vit\xC3_\xC2\xB3ria_55"
+  - first:
+      213: 3733115644952522531
+    second: "Gina vit\xC3_\xC2\xB3ria_56"
+  - first:
+      213: -3719253947306347399
+    second: "Gina vit\xC3_\xC2\xB3ria_57"
+  - first:
+      213: -1243559398777109985
+    second: "Gina vit\xC3_\xC2\xB3ria_58"
+  - first:
+      213: -32784003958230086
+    second: "Gina vit\xC3_\xC2\xB3ria_59"
+  - first:
+      213: -78253271586846275
+    second: "Gina vit\xC3_\xC2\xB3ria_60"
+  - first:
+      213: 76006758945634948
+    second: "Gina vit\xC3_\xC2\xB3ria_61"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Gina vit\xC3_\xC2\xB3ria_1"
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 7941
+        width: 1216
+        height: 1583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4d2a8cf2c3c94b0800000000000000
+      internalID: -5432400874588416777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gina vit\xC3_\xC2\xB3ria_7"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 6034
+        width: 1323
+        height: 1687
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d789fce6c0506c80800000000000000
+      internalID: -8331570495325894702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gina vit\xC3_\xC2\xB3ria_15"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 4064
+        width: 1312
+        height: 1710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38ecc439b49ec710800000000000000
+      internalID: 1715472031250442302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gina vit\xC3_\xC2\xB3ria_26"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2255
+        width: 1610
+        height: 1564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caa6faa792cbc420800000000000000
+      internalID: 2651426762301811395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Gina vit\xC3_\xC2\xB3ria_58"
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 239
+        width: 1256
+        height: 1638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12cac2c05dfdbee0800000000000000
+      internalID: -1243559398777109985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8ad1e6ddef006474089e0870455d9cbc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Gina vit\xC3_\xC2\xB3ria_0": -7000525857472129083
+      "Gina vit\xC3_\xC2\xB3ria_1": -5432400874588416777
+      "Gina vit\xC3_\xC2\xB3ria_10": -1966356741221564845
+      "Gina vit\xC3_\xC2\xB3ria_11": -5877372914374757824
+      "Gina vit\xC3_\xC2\xB3ria_12": -500146900856353369
+      "Gina vit\xC3_\xC2\xB3ria_13": -7988381926839030991
+      "Gina vit\xC3_\xC2\xB3ria_14": -3068664160025010653
+      "Gina vit\xC3_\xC2\xB3ria_15": 1715472031250442302
+      "Gina vit\xC3_\xC2\xB3ria_16": 8654140288528593077
+      "Gina vit\xC3_\xC2\xB3ria_17": 1437062757623462376
+      "Gina vit\xC3_\xC2\xB3ria_18": -7034795535137922314
+      "Gina vit\xC3_\xC2\xB3ria_19": -2380212655178642433
+      "Gina vit\xC3_\xC2\xB3ria_2": 2340077655358682875
+      "Gina vit\xC3_\xC2\xB3ria_20": 223689833010436845
+      "Gina vit\xC3_\xC2\xB3ria_21": 7013844116785864783
+      "Gina vit\xC3_\xC2\xB3ria_22": -4739654438062300843
+      "Gina vit\xC3_\xC2\xB3ria_23": 1156452435792061150
+      "Gina vit\xC3_\xC2\xB3ria_24": 3198175602005120451
+      "Gina vit\xC3_\xC2\xB3ria_25": 7080751662354917208
+      "Gina vit\xC3_\xC2\xB3ria_26": 2651426762301811395
+      "Gina vit\xC3_\xC2\xB3ria_27": -5995895859676420494
+      "Gina vit\xC3_\xC2\xB3ria_28": 6137249071187264137
+      "Gina vit\xC3_\xC2\xB3ria_29": -3011451279427789271
+      "Gina vit\xC3_\xC2\xB3ria_3": -4482446064016374341
+      "Gina vit\xC3_\xC2\xB3ria_30": -3389018557317484928
+      "Gina vit\xC3_\xC2\xB3ria_31": 8324796092109335919
+      "Gina vit\xC3_\xC2\xB3ria_32": 8293352296293250939
+      "Gina vit\xC3_\xC2\xB3ria_33": -3650398604103903790
+      "Gina vit\xC3_\xC2\xB3ria_34": -3459610916777199220
+      "Gina vit\xC3_\xC2\xB3ria_35": -3198752701062291122
+      "Gina vit\xC3_\xC2\xB3ria_36": -1368981555379858954
+      "Gina vit\xC3_\xC2\xB3ria_37": -2450287009764537108
+      "Gina vit\xC3_\xC2\xB3ria_38": -6899634169482217525
+      "Gina vit\xC3_\xC2\xB3ria_39": -2305273561821462324
+      "Gina vit\xC3_\xC2\xB3ria_4": 8530627821855119142
+      "Gina vit\xC3_\xC2\xB3ria_40": -232899149591184571
+      "Gina vit\xC3_\xC2\xB3ria_41": 8127121085421090073
+      "Gina vit\xC3_\xC2\xB3ria_42": 8602802738635150381
+      "Gina vit\xC3_\xC2\xB3ria_43": -1093503908709645046
+      "Gina vit\xC3_\xC2\xB3ria_44": -1619793959823305825
+      "Gina vit\xC3_\xC2\xB3ria_45": 8605039204113257963
+      "Gina vit\xC3_\xC2\xB3ria_46": 7850779940928917241
+      "Gina vit\xC3_\xC2\xB3ria_47": 6685068394297196577
+      "Gina vit\xC3_\xC2\xB3ria_48": 5958916630554730334
+      "Gina vit\xC3_\xC2\xB3ria_49": -8412502313790154907
+      "Gina vit\xC3_\xC2\xB3ria_5": 4216038324014455306
+      "Gina vit\xC3_\xC2\xB3ria_50": 4879079759486030280
+      "Gina vit\xC3_\xC2\xB3ria_51": 7669235321693401955
+      "Gina vit\xC3_\xC2\xB3ria_52": -5781211152330815843
+      "Gina vit\xC3_\xC2\xB3ria_53": -5798690477320471822
+      "Gina vit\xC3_\xC2\xB3ria_54": -8513176118271938026
+      "Gina vit\xC3_\xC2\xB3ria_55": 696617655126008091
+      "Gina vit\xC3_\xC2\xB3ria_56": 3733115644952522531
+      "Gina vit\xC3_\xC2\xB3ria_57": -3719253947306347399
+      "Gina vit\xC3_\xC2\xB3ria_58": -1243559398777109985
+      "Gina vit\xC3_\xC2\xB3ria_59": -32784003958230086
+      "Gina vit\xC3_\xC2\xB3ria_6": 1449194611671287825
+      "Gina vit\xC3_\xC2\xB3ria_60": -78253271586846275
+      "Gina vit\xC3_\xC2\xB3ria_61": 76006758945634948
+      "Gina vit\xC3_\xC2\xB3ria_7": -8331570495325894702
+      "Gina vit\xC3_\xC2\xB3ria_8": 2512675591239716497
+      "Gina vit\xC3_\xC2\xB3ria_9": 2179766727723372020
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

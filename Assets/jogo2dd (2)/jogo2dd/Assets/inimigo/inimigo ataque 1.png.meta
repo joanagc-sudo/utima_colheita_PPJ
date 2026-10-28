@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: ec8dffa1025e5e349a873162a8b490f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3585984323626106524
+    second: inimigo ataque_0
+  - first:
+      213: -4687369718232983277
+    second: inimigo ataque_1
+  - first:
+      213: 3189526008122182047
+    second: inimigo ataque_2
+  - first:
+      213: -4699642120646185184
+    second: inimigo ataque_3
+  - first:
+      213: 4439850134860625179
+    second: inimigo ataque_4
+  - first:
+      213: 6462872876718285075
+    second: inimigo ataque_5
+  - first:
+      213: 3577328004741924678
+    second: inimigo ataque_6
+  - first:
+      213: -4581693610340932839
+    second: inimigo ataque_7
+  - first:
+      213: -8680593881833761614
+    second: inimigo ataque_8
+  - first:
+      213: -8257434740653973688
+    second: inimigo ataque_9
+  - first:
+      213: 9218790920336363950
+    second: inimigo ataque_10
+  - first:
+      213: 4046874582319640758
+    second: inimigo ataque_11
+  - first:
+      213: -4641360848672873247
+    second: inimigo ataque_12
+  - first:
+      213: 7542366099810102054
+    second: inimigo ataque_13
+  - first:
+      213: -691038486063760560
+    second: inimigo ataque_14
+  - first:
+      213: 3746544682778854333
+    second: inimigo ataque_15
+  - first:
+      213: 582488756860706491
+    second: inimigo ataque_16
+  - first:
+      213: 9141303108779460729
+    second: inimigo ataque_17
+  - first:
+      213: -3799723420495139929
+    second: inimigo ataque_18
+  - first:
+      213: 7785454581238512504
+    second: inimigo ataque_19
+  - first:
+      213: -2569589957567104086
+    second: inimigo ataque_20
+  - first:
+      213: -4116156180125254029
+    second: inimigo ataque_21
+  - first:
+      213: -6913033253788074970
+    second: inimigo ataque_22
+  - first:
+      213: 4569056124457678586
+    second: inimigo ataque_23
+  - first:
+      213: 7965402422600182951
+    second: inimigo ataque_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigo ataque_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 6794
+        width: 707
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e7ad33eb9f3c130800000000000000
+      internalID: 3585984323626106524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo ataque_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5834
+        width: 752
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fab6b146487ceb0800000000000000
+      internalID: -4699642120646185184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo ataque_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 4874
+        width: 827
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64703b7edd835a130800000000000000
+      internalID: 3577328004741924678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo ataque_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3931
+        width: 647
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f99576ad2b76d80800000000000000
+      internalID: -8257434740653973688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo ataque_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2954
+        width: 647
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4a27c26e2969fb0800000000000000
+      internalID: -4641360848672873247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo ataque_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1994
+        width: 647
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db38928f9866ef330800000000000000
+      internalID: 3746544682778854333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo ataque_19
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1351
+        width: 424
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 21, z: 126, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bb8a941bd7b0c60800000000000000
+      internalID: 7785454581238512504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigo ataque_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 74
+        width: 647
+        height: 842
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cbf7be1e8ff00a0800000000000000
+      internalID: -6913033253788074970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8ba60540c115d3e499f9a683a7ead57b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      inimigo ataque_25: 916101434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
