@@ -1,31 +1,61 @@
 
+using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlatGira : MonoBehaviour
 {
-    public float velocidade = 50f;
-    public float espera = 1f;
-    public float angulo = 90f;
+    [Header("Configurações da ponte")]
+    public float anguloAberto = 90f;
+    public float velocidade = 60f;
+    public float tempoParaAbrir = 5f;
+    public float tempoAberta = 3f;
 
-    bool aberta = false;
-    float tempo = 0f;
+    private Rigidbody2D rb;
+    private float rotacaoFechada;
+    private float rotacaoAberta;
 
-    void Update()
+    void Start()
     {
-        tempo += Time.deltaTime;
+        rb = GetComponent<Rigidbody2D>();
 
-        if (tempo >= espera)
+        rb.bodyType = RigidbodyType2D.Kinematic;
+
+        rotacaoFechada = rb.rotation;
+        rotacaoAberta = rotacaoFechada + anguloAberto;
+
+        StartCoroutine(ControlarPonte());
+    }
+
+    IEnumerator ControlarPonte()
+    {
+        while (true)
         {
-            aberta = !aberta;
-            tempo = 0f;
+            yield return new WaitForSeconds(tempoParaAbrir);
+
+            yield return GirarPonte(rotacaoAberta);
+
+            yield return new WaitForSeconds(tempoAberta);
+
+            yield return GirarPonte(rotacaoFechada);
+        }
+    }
+
+    IEnumerator GirarPonte(float destino)
+    {
+        while (Mathf.Abs(Mathf.DeltaAngle(rb.rotation, destino)) > 0.1f)
+        {
+            float novaRotacao = Mathf.MoveTowardsAngle(
+                rb.rotation,
+                destino,
+                velocidade * Time.fixedDeltaTime
+            );
+
+            rb.MoveRotation(novaRotacao);
+
+            yield return new WaitForFixedUpdate();
         }
 
-        float destino = aberta ? angulo : 0f;
-
-        transform.localRotation = Quaternion.RotateTowards(
-            transform.localRotation,
-            Quaternion.Euler(0, 0, destino),
-            velocidade * Time.deltaTime
-        );
+        rb.MoveRotation(destino);
     }
 }

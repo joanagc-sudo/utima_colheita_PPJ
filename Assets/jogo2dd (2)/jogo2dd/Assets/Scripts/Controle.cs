@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -17,7 +18,7 @@ public class Controle : MonoBehaviour
     [Header("Chão")]
     public Transform terra;
     public LayerMask chao;
-    public float raioChecagemChao = 0.2f; // Controla o tamanho da área de deteção do chão
+    public float raioChecagemChao = 0.2f;
 
     private float MoveX;
     private bool noChao;
@@ -32,6 +33,9 @@ public class Controle : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        // Impede a Gina de ficar torta
+        rb.constraints |= RigidbodyConstraints2D.FreezeRotation;
     }
 
     // UPDATE
@@ -53,10 +57,12 @@ public class Controle : MonoBehaviour
     // MOVIMENTO DO JOGADOR
     void moveJogador()
     {
-        // VERIFICA SE ESTÁ NO CHÃO USANDO UM CÍRCULO NOS PÉS (Mais seguro que Linecast)
-        noChao = Physics2D.OverlapCircle(terra.position, raioChecagemChao, chao);
+        noChao = Physics2D.OverlapCircle(
+            terra.position,
+            raioChecagemChao,
+            chao
+        );
 
-        // MOVIMENTO HORIZONTAL
         MoveX = Input.GetAxis("Horizontal");
 
         // PULO
@@ -66,10 +72,13 @@ public class Controle : MonoBehaviour
         }
 
         // FÍSICA
-        rb.velocity = new Vector2(MoveX * velocidade, rb.velocity.y);
+        rb.velocity = new Vector2(
+            MoveX * velocidade,
+            rb.velocity.y
+        );
 
-        // IGNORAR COLISÃO AO SUBIR (Com proteção para evitar erro de Layer inválida)
-        int layerChao = LayerMask.NameToLayer("Chao"); // Altere para "Chão" com acento se essa for a grafia no seu Unity
+        // IGNORAR COLISÃO AO SUBIR
+        int layerChao = LayerMask.NameToLayer("Chao");
 
         if (layerChao != -1)
         {
@@ -100,22 +109,17 @@ public class Controle : MonoBehaviour
         {
             GameObject temp = Instantiate(balaprojetil);
 
-            // POSIÇÃO DA ARMA
             temp.transform.position = arma.position;
 
-            // DIREÇÃO DO TIRO
             float direcao = direita ? 1f : -1f;
 
-            // VELOCIDADE DA BALA
             temp.GetComponent<Rigidbody2D>().velocity =
                 new Vector2(forcaDoTiro * direcao, 0);
 
-            // VIRA A BALA
             Vector3 escala = temp.transform.localScale;
             escala.x *= direcao;
             temp.transform.localScale = escala;
 
-            // DESTROI A BALA
             Destroy(temp.gameObject, 1);
 
             tiro = false;
@@ -148,7 +152,8 @@ public class Controle : MonoBehaviour
 
         Vector2 escala = transform.localScale;
 
-        if ((escala.x > 0 && !direita) || (escala.x < 0 && direita))
+        if ((escala.x > 0 && !direita) ||
+            (escala.x < 0 && direita))
         {
             escala.x *= -1;
             transform.localScale = escala;
@@ -160,7 +165,8 @@ public class Controle : MonoBehaviour
     {
         if (outro.gameObject.CompareTag("PlataformaMovel"))
         {
-            transform.parent = outro.transform;
+            // Não altera mais o parent da Gina.
+            // Evita herdar a rotação da plataforma.
         }
     }
 
@@ -168,17 +174,21 @@ public class Controle : MonoBehaviour
     {
         if (outro.gameObject.CompareTag("PlataformaMovel"))
         {
-            transform.parent = null;
+            // Não precisa remover parent.
+            // A Gina permanece independente da plataforma.
         }
     }
 
-    // Desenha uma esfera vermelha nos pés na aba Scene para facilitar a configuração
+    // DESENHA ESFERA NOS PÉS
     void OnDrawGizmosSelected()
     {
         if (terra != null)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(terra.position, raioChecagemChao);
+            Gizmos.DrawWireSphere(
+                terra.position,
+                raioChecagemChao
+            );
         }
     }
 }
