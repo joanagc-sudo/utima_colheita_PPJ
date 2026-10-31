@@ -24,6 +24,8 @@ public class Controle : MonoBehaviour
     private bool noChao;
     private bool direita = true;
     private bool tiro;
+    private bool puloAnterior;
+    private bool tiroAnterior;
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -45,13 +47,15 @@ public class Controle : MonoBehaviour
         viraJogador();
 
         // ATAQUE
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.LeftShift) ||
+    (ControleMobile.tiro && !tiroAnterior))
         {
             tiro = true;
-
             ataca();
             atirar();
         }
+
+        tiroAnterior = ControleMobile.tiro;
     }
 
     // MOVIMENTO DO JOGADOR
@@ -63,13 +67,22 @@ public class Controle : MonoBehaviour
             chao
         );
 
-        MoveX = Input.GetAxis("Horizontal");
+        MoveX = Input.GetAxisRaw("Horizontal");
+
+        if (ControleMobile.esquerda)
+            MoveX = -1;
+
+        if (ControleMobile.direita)
+            MoveX = 1;
 
         // PULO
-        if (Input.GetButtonDown("Jump") && noChao)
+        if ((Input.GetButtonDown("Jump") ||
+     (ControleMobile.pulo && !puloAnterior)) && noChao)
         {
             pula();
         }
+
+        puloAnterior = ControleMobile.pulo;
 
         // FÍSICA
         rb.velocity = new Vector2(
