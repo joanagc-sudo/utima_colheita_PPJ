@@ -27,6 +27,9 @@ public class Controle : MonoBehaviour
     private bool puloAnterior;
     private bool tiroAnterior;
 
+    public int coins;
+    private Pontos gcPlayer;
+
     private Animator animator;
     private Rigidbody2D rb;
 
@@ -36,8 +39,34 @@ public class Controle : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
-        // Impede a Gina de ficar torta
-        rb.constraints |= RigidbodyConstraints2D.FreezeRotation;
+        if (animator == null)
+            Debug.LogError("Falta Animator no personagem!");
+
+        if (rb == null)
+            Debug.LogError("Falta Rigidbody2D no personagem!");
+
+        if (terra == null)
+            Debug.LogError("Arraste o objeto Terra no Inspector!");
+
+        gcPlayer = Pontos.gc;
+
+        if (gcPlayer == null)
+        {
+            Debug.LogError("Objeto Pontos não encontrado na cena!");
+            return;
+        }
+
+        if (gcPlayer.coinsText == null)
+        {
+            Debug.LogError("O campo Coins Text está vazio no Inspector!");
+            return;
+        }
+
+        gcPlayer.coins = 0;
+        gcPlayer.coinsText.text = "0";
+
+        if (rb != null)
+            rb.constraints |= RigidbodyConstraints2D.FreezeRotation;
     }
 
     // UPDATE
@@ -202,6 +231,23 @@ public class Controle : MonoBehaviour
                 terra.position,
                 raioChecagemChao
             );
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("coins"))
+        {
+            if (gcPlayer == null || gcPlayer.coinsText == null)
+            {
+                Debug.LogError("Referência dos pontos ou do texto não configurada!");
+                return;
+            }
+
+            gcPlayer.coins++;
+            gcPlayer.coinsText.text = gcPlayer.coins.ToString();
+
+            Destroy(collision.gameObject);
         }
     }
 }
