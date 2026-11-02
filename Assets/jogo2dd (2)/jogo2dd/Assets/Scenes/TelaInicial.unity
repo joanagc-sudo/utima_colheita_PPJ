@@ -243,8 +243,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 153, y: -120.08818}
-  m_SizeDelta: {x: 95.6743, y: 44.4532}
+  m_AnchoredPosition: {x: 172, y: -120.08817}
+  m_SizeDelta: {x: 87.5489, y: 41.203}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &359779601
 MonoBehaviour:
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4464915058160798585, guid: f6fb47cd88107314d89601fc44040fa8, type: 3}
+  m_Sprite: {fileID: 2162439161497409974, guid: db6063dd9a2683e4e81399b0588d9381, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -659,7 +659,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 248526115}
         m_TargetAssemblyTypeName: Script, Assembly-CSharp
-        m_MethodName: fecharJogo
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

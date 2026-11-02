@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 52b96755b1eae7d41995f5c7d8250f86
+guid: db6063dd9a2683e4e81399b0588d9381
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6731083799094938840
-    second: image-3.png_0
+      213: 935975633090730203
+    second: botaoSair1 (1)_0
+  - first:
+      213: -6545485685459052471
+    second: botaoSair1 (1)_1
+  - first:
+      213: -474156388214708220
+    second: botaoSair1 (1)_2
+  - first:
+      213: 2162439161497409974
+    second: botaoSair1 (1)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image-3.png_0
+      name: botaoSair1 (1)_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 0
-        width: 116
-        height: 124
+        x: 63
+        y: 1031
+        width: 858
+        height: 890
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +136,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8dcc07e6d0d996d50800000000000000
-      internalID: 6731083799094938840
+      spriteID: bd85bc811e04dfc00800000000000000
+      internalID: 935975633090730203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botaoSair1 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1031
+        width: 858
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9481fc3d273c925a0800000000000000
+      internalID: -6545485685459052471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botaoSair1 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 7
+        width: 858
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408ea70f6457b69f0800000000000000
+      internalID: -474156388214708220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botaoSair1 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 495
+        width: 194
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b95275d5f6820e10800000000000000
+      internalID: 2162439161497409974
       vertices: []
       indices: 
       edges: []
@@ -143,8 +215,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      image-3.png_0: 6731083799094938840
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
