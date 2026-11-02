@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      botaoSair_0: -4464915058160798585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
