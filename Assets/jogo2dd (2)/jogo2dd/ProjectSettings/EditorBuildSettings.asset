@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TelaInicial.unity
     guid: bca1e4e8186d4e940adef23ffc736fa5
   - enabled: 1
+    path: Assets/Scenes/CutSceneInicial.unity
+    guid: c1c94fedb701c8c41aacc893f79f3a27
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 599b4ef1cf06c9d4f8c5069aa9d88955
   m_configObjects: {}
