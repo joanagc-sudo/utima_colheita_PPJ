@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,11 +5,6 @@ using UnityEngine;
 
 public class Controle : MonoBehaviour
 {
-    [Header("Tiro")]
-    public GameObject balaprojetil;
-    public Transform arma;
-    public float forcaDoTiro = 15f;
-
     [Header("Movimento")]
     public int velocidade = 10;
     public int forcaDoPulo = 250;
@@ -23,7 +17,6 @@ public class Controle : MonoBehaviour
     private float MoveX;
     private bool noChao;
     private bool direita = true;
-    private bool tiro;
     private bool puloAnterior;
     private bool tiroAnterior;
 
@@ -75,13 +68,11 @@ public class Controle : MonoBehaviour
         moveJogador();
         viraJogador();
 
-        // ATAQUE
+        // ATAQUE - APENAS ANIMAÇÃO
         if (Input.GetKeyDown(KeyCode.LeftShift) ||
-    (ControleMobile.tiro && !tiroAnterior))
+            (ControleMobile.tiro && !tiroAnterior))
         {
-            tiro = true;
             ataca();
-            atirar();
         }
 
         tiroAnterior = ControleMobile.tiro;
@@ -106,7 +97,7 @@ public class Controle : MonoBehaviour
 
         // PULO
         if ((Input.GetButtonDown("Jump") ||
-     (ControleMobile.pulo && !puloAnterior)) && noChao)
+            (ControleMobile.pulo && !puloAnterior)) && noChao)
         {
             pula();
         }
@@ -141,30 +132,6 @@ public class Controle : MonoBehaviour
         else
         {
             animator.SetBool("Correndo", false);
-        }
-    }
-
-    // TIRO
-    private void atirar()
-    {
-        if (tiro)
-        {
-            GameObject temp = Instantiate(balaprojetil);
-
-            temp.transform.position = arma.position;
-
-            float direcao = direita ? 1f : -1f;
-
-            temp.GetComponent<Rigidbody2D>().velocity =
-                new Vector2(forcaDoTiro * direcao, 0);
-
-            Vector3 escala = temp.transform.localScale;
-            escala.x *= direcao;
-            temp.transform.localScale = escala;
-
-            Destroy(temp.gameObject, 1);
-
-            tiro = false;
         }
     }
 
@@ -207,8 +174,7 @@ public class Controle : MonoBehaviour
     {
         if (outro.gameObject.CompareTag("PlataformaMovel"))
         {
-            // Não altera mais o parent da Gina.
-            // Evita herdar a rotação da plataforma.
+            // Gina permanece independente da plataforma.
         }
     }
 
@@ -217,7 +183,6 @@ public class Controle : MonoBehaviour
         if (outro.gameObject.CompareTag("PlataformaMovel"))
         {
             // Não precisa remover parent.
-            // A Gina permanece independente da plataforma.
         }
     }
 
@@ -227,6 +192,7 @@ public class Controle : MonoBehaviour
         if (terra != null)
         {
             Gizmos.color = Color.red;
+
             Gizmos.DrawWireSphere(
                 terra.position,
                 raioChecagemChao
@@ -234,13 +200,16 @@ public class Controle : MonoBehaviour
         }
     }
 
+    // COLETAR MOEDAS
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("coins"))
         {
             if (gcPlayer == null || gcPlayer.coinsText == null)
             {
-                Debug.LogError("Referência dos pontos ou do texto não configurada!");
+                Debug.LogError(
+                    "Referência dos pontos ou do texto não configurada!"
+                );
                 return;
             }
 
