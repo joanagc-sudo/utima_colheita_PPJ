@@ -1,6 +1,5 @@
 
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,17 +16,17 @@ public class CutScene1 : MonoBehaviour
     public string nomeCenaJogo = "SampleScene";
 
     private string[] falas = {
-        "Ah! bom dia Jorge, estava esperando por você!", // Fazendeiro
-        "Sim, senhor! Cheguei agora mesmo. É um prazer conhecê-lo!", // Caseiro
-        "Seja bem-vindo! Confesso que as coisas por aqui andam melhores do que nunca", // Fazendeiro
-        "Talvez seja o novo caseiro trazendo boas energias para a fazenda", // Fazendeiro
-        "Percebi! Nunca vi uma fazenda com plantações tão bonitas e abundantes!", // Caseiro
-        "Hehehe! É uma maravilha, não é? Há pouco tempo, mal conseguíamos colher o suficiente para nos manter", // Fazendeiro
-        "Sério? E o que aconteceu para tudo mudar assim?", // Caseiro
-        "Ah.. isso é uma longa história! O importante é que agora temos muito trabalho pela frente!", // Fazendeiro
-        "Pode deixar comigo, senhor! Por onde devo começar?", // Caseiro
-        "Quero que recolha dez itens de milho e trigo antes do anoitecer. Preciso deles para organizar a produção de amanhã.", // Fazendeiro
-        "Dez itens? Pode deixar! Vou começar agora mesmo!" // Caseiro
+        "Ah! bom dia Jorge, estava esperando por você!",
+        "Sim, senhor! Cheguei agora mesmo. É um prazer conhecê-lo!",
+        "Seja bem-vindo! Confesso que as coisas por aqui andam melhores do que nunca",
+        "Talvez seja o novo caseiro trazendo boas energias para a fazenda",
+        "Percebi! Nunca vi uma fazenda com plantações tão bonitas e abundantes!",
+        "Hehehe! É uma maravilha, não é? Há pouco tempo, mal conseguíamos colher o suficiente para nos manter",
+        "Sério? E o que aconteceu para tudo mudar assim?",
+        "Ah.. isso é uma longa história! O importante é que agora temos muito trabalho pela frente!",
+        "Pode deixar comigo, senhor! Por onde devo começar?",
+        "Quero que recolha dez itens de milho e trigo antes do anoitecer. Preciso deles para organizar a produção de amanhã.",
+        "Dez itens? Pode deixar! Vou começar agora mesmo!"
     };
 
     // true = Fazendeiro | false = Caseiro
@@ -47,6 +46,8 @@ public class CutScene1 : MonoBehaviour
 
     private int indiceFala = 0;
     private bool digitando = false;
+    private bool cenaIniciada = false;
+
     private Coroutine efeitoDigitacao;
 
     void Start()
@@ -65,6 +66,7 @@ public class CutScene1 : MonoBehaviour
     IEnumerator ExecutarCutScene()
     {
         animacao.falando = false;
+
         TelaPreta.gameObject.SetActive(true);
         Texto.text = "";
 
@@ -76,6 +78,7 @@ public class CutScene1 : MonoBehaviour
         {
             cor.a = 1f - t;
             TelaPreta.color = cor;
+
             yield return null;
         }
 
@@ -84,22 +87,24 @@ public class CutScene1 : MonoBehaviour
 
         TelaPreta.gameObject.SetActive(false);
 
+        cenaIniciada = true;
+
         MostrarFala();
     }
 
     void MostrarFala()
     {
+        // Verifica se todos os diálogos terminaram
         if (indiceFala >= falas.Length)
         {
-            animacao.falando = false;
-
-            SceneManager.LoadScene(nomeCenaJogo);
+            FinalizarCutScene();
             return;
         }
 
         if (efeitoDigitacao != null)
         {
             StopCoroutine(efeitoDigitacao);
+            efeitoDigitacao = null;
         }
 
         efeitoDigitacao = StartCoroutine(
@@ -111,7 +116,7 @@ public class CutScene1 : MonoBehaviour
     {
         digitando = true;
 
-        // Verifica se a fala pertence ao fazendeiro
+        // Define quem está falando
         animacao.falando = falasFazendeiro[indiceFala];
 
         Texto.text = "";
@@ -123,10 +128,8 @@ public class CutScene1 : MonoBehaviour
             yield return new WaitForSeconds(0.04f);
         }
 
-        // Terminou de digitar
         digitando = false;
 
-        // Fecha a boca do fazendeiro
         animacao.falando = false;
 
         efeitoDigitacao = null;
@@ -134,29 +137,42 @@ public class CutScene1 : MonoBehaviour
 
     void AvancarDialogo()
     {
-        if (TelaPreta.gameObject.activeSelf)
-        {
+        if (!cenaIniciada)
             return;
-        }
 
+        if (TelaPreta.gameObject.activeSelf)
+            return;
+
+        // Se ainda está digitando, mostra a frase inteira
         if (digitando)
         {
-            StopCoroutine(efeitoDigitacao);
+            if (efeitoDigitacao != null)
+            {
+                StopCoroutine(efeitoDigitacao);
+                efeitoDigitacao = null;
+            }
 
             Texto.text = falas[indiceFala];
 
             digitando = false;
-
-            // Fecha a boca ao pular o texto
             animacao.falando = false;
-
-            efeitoDigitacao = null;
         }
         else
         {
+            // Passa para a próxima fala
             indiceFala++;
 
             MostrarFala();
         }
+    }
+
+    void FinalizarCutScene()
+    {
+        Debug.Log("Diálogos finalizados!");
+        Debug.Log("Carregando cena: " + nomeCenaJogo);
+
+        animacao.falando = false;
+
+        SceneManager.LoadScene(nomeCenaJogo);
     }
 }
