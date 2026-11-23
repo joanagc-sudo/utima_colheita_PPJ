@@ -180,7 +180,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caseiro parado (1) (1) (1)_0: -6959742548751981007
+      caseiro parado (1) (1) (1)_1: 8798816534616134522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
