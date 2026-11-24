@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fundoCasaDeNoiteDesfocado_0: -3532496383590347944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
