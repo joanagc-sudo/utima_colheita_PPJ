@@ -127,6 +127,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (34)
@@ -248,6 +256,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -410,6 +426,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -421,7 +445,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 3573959511169749614, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_Name
@@ -429,15 +453,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 62.49626
+      value: 25.414577
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.927583
+      value: 1.841002
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -477,6 +501,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4447059524588083424, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
   m_PrefabInstance: {fileID: 2093670282}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &42959172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42959173}
+  m_Layer: 0
+  m_Name: todosCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42959173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42959172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1116668358}
+  - {fileID: 531843684}
+  - {fileID: 2026626636}
+  - {fileID: 641502052}
+  - {fileID: 803714296}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &47281323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6511416679408940073, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
@@ -490,6 +550,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -611,6 +679,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -672,6 +748,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
       value: PedraCimaMeio (8)
@@ -689,6 +773,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (1)
@@ -754,6 +846,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 3727413499427242619, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_Name
       value: TerraEsqCima (2)
@@ -764,7 +864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5976244735709276091, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 64.65424
+      value: 66.59387
       objectReference: {fileID: 0}
     - target: {fileID: 5976244735709276091, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_LocalScale.y
@@ -772,7 +872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5976244735709276091, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 410.68
+      value: 411.36
       objectReference: {fileID: 0}
     - target: {fileID: 5976244735709276091, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -833,6 +933,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio
@@ -898,6 +1006,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (40)
@@ -1025,6 +1141,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1090,6 +1214,14 @@ PrefabInstance:
     - target: {fileID: 4526541016241401269, guid: f978ffbd3b6142f4aa95322ef7ae780b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -179.969
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043380847114055302, guid: f978ffbd3b6142f4aa95322ef7ae780b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043380847114055302, guid: f978ffbd3b6142f4aa95322ef7ae780b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 8966437296433097829, guid: f978ffbd3b6142f4aa95322ef7ae780b, type: 3}
       propertyPath: m_Name
@@ -1159,6 +1291,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1240,6 +1380,14 @@ PrefabInstance:
     - target: {fileID: 4447059524588083424, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
@@ -1356,6 +1504,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -1415,7 +1571,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 634887955777447780, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_Name
@@ -1423,15 +1579,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 59.13573
+      value: 22.054047
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.122725
+      value: -1.9638557
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1531,6 +1687,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1626,8 +1790,8 @@ Transform:
   m_GameObject: {fileID: 224745390}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.006744, y: -0.69659996, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 31.7485, y: -0.69659996, z: 0}
+  m_LocalScale: {x: 1.0323, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2011701969}
@@ -1739,9 +1903,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 63.092438
+      value: 67.50891
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.y
@@ -1749,7 +1921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2429
+      value: 2430.43
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1817,6 +1989,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -1894,6 +2074,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (2)
@@ -2045,7 +2233,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 634887955777447780, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_Name
@@ -2053,15 +2241,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 58.853462
+      value: 21.771778
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.605188
+      value: 3.5186076
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2156,6 +2344,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2217,6 +2413,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
       value: PedraCimaMeio (3)
@@ -2243,6 +2447,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -2360,6 +2572,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2425,6 +2645,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2436,7 +2664,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 634887955777447780, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_Name
@@ -2444,15 +2672,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 69.94949
+      value: 32.86781
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.674797
+      value: -0.4117837
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2620,6 +2848,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -2679,7 +2915,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 3573959511169749614, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_Name
@@ -2687,15 +2923,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.75541
+      value: 39.673725
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.19
+      value: 0.103419304
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2763,6 +2999,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (30)
@@ -2843,6 +3087,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (17)
@@ -2915,6 +3167,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -3025,6 +3285,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
       value: PedraCimaMeio (9)
@@ -3094,6 +3362,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3107,6 +3383,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (19)
@@ -3246,9 +3530,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 63.092438
+      value: 69.40168
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.y
@@ -3256,7 +3548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1720.369
+      value: 1718.33
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3312,6 +3604,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (14)
@@ -3433,6 +3733,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3444,7 +3752,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 3573959511169749614, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_Name
@@ -3452,15 +3760,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.16
+      value: 10.078316
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.18
+      value: 1.0934186
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3510,6 +3818,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -3629,6 +3945,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3642,6 +3966,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (24)
@@ -3713,6 +4045,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
@@ -3773,6 +4113,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+--- !u!4 &495761141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
+  m_PrefabInstance: {fileID: 34443017}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &503847951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
@@ -4018,7 +4363,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.1, y: 6.035, z: -10}
+  m_LocalPosition: {x: 35.67, y: 5.83, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4036,7 +4381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4665688cd9c5d234ebe4bf6275a9ce40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMax: 83.2
+  xMax: 82.3
   xMin: 35.62
   yMax: 7.99
   yMin: 3.52
@@ -4201,7 +4546,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1681708744}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 42959173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4216,6 +4561,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (26)
@@ -4333,6 +4686,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4346,6 +4707,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -4466,6 +4835,14 @@ PrefabInstance:
     - target: {fileID: 7746632679040932495, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4626,6 +5003,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4639,6 +5024,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (14)
@@ -4704,6 +5097,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 3727413499427242619, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_Name
       value: TerraEsqCima
@@ -4842,7 +5243,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 42959173}
     m_Modifications:
     - target: {fileID: 100307216987520939, guid: dc9214006c6e83a4eb880c38f8402894, type: 3}
       propertyPath: m_IsActive
@@ -5205,6 +5606,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -5302,6 +5711,16 @@ Transform:
   m_Children:
   - {fileID: 1548683641}
   - {fileID: 1739135426}
+  - {fileID: 1072050072}
+  - {fileID: 891734666}
+  - {fileID: 730395422}
+  - {fileID: 495761141}
+  - {fileID: 952517010}
+  - {fileID: 639042788}
+  - {fileID: 781390895}
+  - {fileID: 655380477}
+  - {fileID: 1782488613}
+  - {fileID: 1202005440}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &585345766 stripped
@@ -5420,6 +5839,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5433,6 +5860,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (10)
@@ -5503,6 +5938,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (18)
@@ -5564,6 +6007,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
   m_PrefabInstance: {fileID: 912940303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &639042788 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
+  m_PrefabInstance: {fileID: 170695728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &641502052 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4331676534047944386, guid: dc9214006c6e83a4eb880c38f8402894, type: 3}
+  m_PrefabInstance: {fileID: 917908894}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &646638089 stripped
 Transform:
@@ -5654,6 +6107,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
@@ -5727,6 +6188,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (15)
@@ -5844,6 +6313,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5935,6 +6412,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2011701969}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &655380477 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
+  m_PrefabInstance: {fileID: 935655263}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &671684170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7630511680269080722, guid: ab4dead91a08096449369096c06bb95b, type: 3}
@@ -5958,6 +6440,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 6520940691770162080, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -6158,12 +6648,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689324605}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.84, y: 5.73, z: 0}
-  m_LocalScale: {x: 1.5413, y: 1.2902, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1068.1038, y: 283.53824, z: 0}
+  m_LocalScale: {x: 68.80092, y: 68.29734, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1873540069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &698843385
 PrefabInstance:
@@ -6173,6 +6663,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -6294,6 +6792,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6360,6 +6866,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
       value: PedraCimaMeio (1)
@@ -6387,6 +6901,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (12)
@@ -6457,6 +6979,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (8)
@@ -6594,12 +7124,17 @@ Transform:
   m_GameObject: {fileID: 728395004}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.006744, y: -1.9804001, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 31.7485, y: -1.9804001, z: 0}
+  m_LocalScale: {x: 1.0323, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2011701969}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &730395422 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
+  m_PrefabInstance: {fileID: 288473922}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &743487642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6608,6 +7143,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (13)
@@ -6751,6 +7294,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (7)
@@ -6878,6 +7429,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6896,6 +7455,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (17)
@@ -6967,6 +7534,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5782027958452118899, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
   m_PrefabInstance: {fileID: 264157660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &781390895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
+  m_PrefabInstance: {fileID: 846474089}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &784102607 stripped
 Transform:
@@ -7211,6 +7783,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788125868}
   m_CullTransparentMesh: 1
+--- !u!224 &803714296 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4331676534047944386, guid: dc9214006c6e83a4eb880c38f8402894, type: 3}
+  m_PrefabInstance: {fileID: 571576254}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &814593131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7219,6 +7796,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (15)
@@ -7371,6 +7956,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7436,6 +8029,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7454,6 +8055,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (32)
@@ -7519,6 +8128,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (9)
@@ -7641,6 +8258,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7652,7 +8277,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 3573959511169749614, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_Name
@@ -7660,15 +8285,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 60.142292
+      value: 23.060608
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.074794
+      value: -2.011787
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7946,6 +8571,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
       value: PedraCimaMeio (4)
@@ -8014,6 +8647,14 @@ PrefabInstance:
     - target: {fileID: 4447059524588083424, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
@@ -8084,11 +8725,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+--- !u!4 &891734666 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
+  m_PrefabInstance: {fileID: 2131890248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &892003967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8097,6 +8751,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -8166,6 +8828,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (22)
@@ -8236,6 +8906,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -8367,6 +9045,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8383,7 +9069,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 42959173}
     m_Modifications:
     - target: {fileID: 100307216987520939, guid: dc9214006c6e83a4eb880c38f8402894, type: 3}
       propertyPath: m_IsActive
@@ -8518,6 +9204,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (42)
@@ -8635,6 +9329,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8660,6 +9362,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -8720,7 +9430,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 634887955777447780, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_Name
@@ -8728,15 +9438,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.1
+      value: 24.018314
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.08
+      value: -2.0065808
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8854,6 +9564,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 578e4b5978729d34e821d0d963c02c32, type: 3}
+--- !u!4 &952517010 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
+  m_PrefabInstance: {fileID: 316926981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &952598486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8869,6 +9584,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -9036,6 +9759,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -9109,6 +9840,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (1)
@@ -9184,6 +9923,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7630511680269080722, guid: ab4dead91a08096449369096c06bb95b, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -9301,6 +10048,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9366,6 +10121,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9379,6 +10142,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (9)
@@ -9663,6 +10434,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9686,6 +10465,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (41)
@@ -9898,6 +10685,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (5)
@@ -10015,6 +10810,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10028,6 +10831,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (12)
@@ -10145,6 +10956,14 @@ PrefabInstance:
     - target: {fileID: 4447059524588083424, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
@@ -10268,6 +11087,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 6520940691770162080, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -10385,6 +11212,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10405,6 +11240,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -10561,6 +11404,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (38)
@@ -10678,6 +11529,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10688,6 +11547,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
   m_PrefabInstance: {fileID: 122847328}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1072050072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
+  m_PrefabInstance: {fileID: 1914456171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1076068599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10696,6 +11560,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (37)
@@ -10761,6 +11633,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (35)
@@ -10929,6 +11809,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4447059524588083424, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
   m_PrefabInstance: {fileID: 1034919526}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &1116668358 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4331676534047944386, guid: dc9214006c6e83a4eb880c38f8402894, type: 3}
+  m_PrefabInstance: {fileID: 5825343851780340167}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1120662849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10937,6 +11822,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (4)
@@ -11054,6 +11947,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11082,6 +11983,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 3727413499427242619, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_Name
       value: TerraEsqCima (3)
@@ -11247,6 +12156,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (3)
@@ -11400,6 +12317,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -11466,6 +12391,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -11582,6 +12515,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11727,6 +12668,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -11780,6 +12729,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+--- !u!4 &1202005440 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
+  m_PrefabInstance: {fileID: 470283494}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1206319760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11819,6 +12773,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302644163140729685, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 3727413499427242619, guid: a3d3ed7741b85c24c94c178fea46ccc0, type: 3}
       propertyPath: m_Name
       value: TerraEsqCima (1)
@@ -11889,6 +12851,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (31)
@@ -11959,6 +12929,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (46)
@@ -12032,6 +13010,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 85.80572
@@ -12042,11 +13028,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1859.9099
+      value: 1857.4098
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 177
+      value: 155.03
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12195,6 +13181,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -12318,6 +13312,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12341,6 +13343,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (16)
@@ -12497,6 +13507,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (36)
@@ -12644,6 +13662,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12953,6 +13979,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13017,6 +14051,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13098,6 +14140,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13119,6 +14169,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 85.80572
@@ -13129,11 +14187,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1906
+      value: 1903.5
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 176.97
+      value: 155
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13236,6 +14294,14 @@ PrefabInstance:
     - target: {fileID: 7746632679040932495, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13393,6 +14459,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13544,6 +14618,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13562,6 +14644,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -13645,6 +14735,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -13716,6 +14814,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (20)
@@ -13833,6 +14939,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13897,6 +15011,14 @@ PrefabInstance:
     - target: {fileID: 7746632679040932495, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14049,6 +15171,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14069,63 +15199,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
   m_PrefabInstance: {fileID: 1332316110}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1387798137
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_Name
-      value: TerraSolo
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
 --- !u!4 &1392866677 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5782027958452118899, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
@@ -14149,6 +15222,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -14218,6 +15299,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (25)
@@ -14335,6 +15424,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14348,6 +15445,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (27)
@@ -14490,8 +15595,8 @@ Transform:
   m_GameObject: {fileID: 1439038396}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.006744, y: 0.0025997162, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 31.7485, y: 0.0025997162, z: 0}
+  m_LocalScale: {x: 1.0323, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2011701969}
@@ -14504,6 +15609,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (6)
@@ -14761,6 +15874,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7630511680269080722, guid: ab4dead91a08096449369096c06bb95b, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -14826,6 +15947,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (23)
@@ -14978,6 +16107,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -15046,6 +16183,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (6)
@@ -15116,6 +16261,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (39)
@@ -15181,6 +16334,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 409014001664651580, guid: 0dcdf892f5d1d3d4e96e004b1e2ae72f, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409014001664651580, guid: 0dcdf892f5d1d3d4e96e004b1e2ae72f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 1290031894653807097, guid: 0dcdf892f5d1d3d4e96e004b1e2ae72f, type: 3}
       propertyPath: m_Name
       value: TerraEsqBaixo
@@ -15446,6 +16607,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15459,6 +16628,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (11)
@@ -15527,6 +16704,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Name
       value: TerraSolo (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -15681,6 +16866,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (11)
@@ -15756,6 +16949,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (8)
@@ -15836,6 +17037,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (16)
@@ -15914,6 +17123,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -15990,6 +17207,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (19)
@@ -16106,6 +17331,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16271,6 +17504,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (13)
@@ -16341,6 +17582,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio
@@ -16452,6 +17701,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (23)
@@ -16525,6 +17782,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Name
       value: TerraSolo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -16825,6 +18090,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -16947,6 +18220,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17087,6 +18368,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -17351,6 +18640,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -17412,6 +18709,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -17679,6 +18984,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17697,6 +19010,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (3)
@@ -17762,6 +19083,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (21)
@@ -17879,6 +19208,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17892,6 +19229,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7630511680269080722, guid: ab4dead91a08096449369096c06bb95b, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -18029,8 +19374,8 @@ Transform:
   m_GameObject: {fileID: 1767736616}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.006554, y: -0.03240013, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 31.7483, y: -0.03240013, z: 0}
+  m_LocalScale: {x: 1.0323, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2011701969}
@@ -18043,6 +19388,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (2)
@@ -18100,6 +19453,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+--- !u!4 &1782488613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
+  m_PrefabInstance: {fileID: 350324422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1786140321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18108,6 +19466,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 6520940691770162080, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -18342,6 +19708,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18413,6 +19787,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -18493,6 +19875,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -18554,6 +19944,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (18)
@@ -18634,6 +20032,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -18760,6 +20166,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18790,6 +20204,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -19008,6 +20430,7 @@ Transform:
   - {fileID: 671684170}
   - {fileID: 493821635}
   - {fileID: 1898961795}
+  - {fileID: 689324609}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1883401739
@@ -19018,6 +20441,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -19087,6 +20518,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (4)
@@ -19263,6 +20702,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
       value: 63.092438
@@ -19420,6 +20867,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7630511680269080722, guid: ab4dead91a08096449369096c06bb95b, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -19537,6 +20992,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19602,6 +21065,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19613,7 +21084,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 634887955777447780, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_Name
@@ -19621,15 +21092,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 53.101612
+      value: 16.019928
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.5746574
+      value: 2.4880767
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 3739068421604642395, guid: f455d7b6d4ccea4409a8a4c1fd9d7dab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19880,6 +21351,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 805861266288468750, guid: 07adef8ece15c4b4e882a62414f98d5a, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 805861266288468750, guid: 07adef8ece15c4b4e882a62414f98d5a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 993617381803340866, guid: 07adef8ece15c4b4e882a62414f98d5a, type: 3}
       propertyPath: m_Name
       value: PedraMeioEsq (1)
@@ -20002,6 +21481,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20066,6 +21553,14 @@ PrefabInstance:
     - target: {fileID: 3956719058562667154, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20171,6 +21666,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (33)
@@ -20357,6 +21860,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473942380690942854, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5868187974636956186, guid: f8fe2815b2de7824ba12d2a9d808f0d9, type: 3}
       propertyPath: m_Name
       value: TerraDirMeio (7)
@@ -20513,6 +22024,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (10)
@@ -20883,7 +22402,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1959847637}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 42959173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -20898,6 +22417,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (45)
@@ -20968,6 +22495,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (20)
@@ -21048,9 +22583,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 64.65424
+      value: 67.886955
       objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.y
@@ -21058,7 +22601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 487.58
+      value: 488.48
       objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21142,6 +22685,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302130677302119324, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 5146782398422864623, guid: 8d40a3f835cd84544b54e87e8146accf, type: 3}
       propertyPath: m_Name
       value: TerraMeioMeio (47)
@@ -21438,6 +22989,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
       value: PedraCimaMeio (6)
@@ -21603,6 +23162,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21699,6 +23266,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122961321631784968, guid: 17be9630b08b3c14db07b97cbf38fc2e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21710,7 +23285,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 582322239}
     m_Modifications:
     - target: {fileID: 3573959511169749614, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_Name
@@ -21718,15 +23293,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.491627
+      value: 17.409943
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.602898
+      value: -0.48368263
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004090395
+      value: 0.00818079
       objectReference: {fileID: 0}
     - target: {fileID: 7507314670233675723, guid: 8d227bda9c48bf94a972e3df6bb66fd9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21774,6 +23349,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462108664259468993, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 6520940691770162080, guid: ed1333e3e6cd5b642a3b31610aba1248, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -21848,6 +23431,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898961795}
     m_Modifications:
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253617489372156854, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7289341656756856348, guid: 93a95e3b82ccaf64d9f2f0db590b61d7, type: 3}
       propertyPath: m_LocalScale.x
       value: 64.65424
@@ -21927,6 +23518,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 805861266288468750, guid: 07adef8ece15c4b4e882a62414f98d5a, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 805861266288468750, guid: 07adef8ece15c4b4e882a62414f98d5a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 993617381803340866, guid: 07adef8ece15c4b4e882a62414f98d5a, type: 3}
       propertyPath: m_Name
       value: PedraMeioEsq
@@ -22097,6 +23696,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873195421781004857, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8587118597817050873, guid: d7edd5e0148e03646986cbda5d8f9867, type: 3}
       propertyPath: m_Name
       value: PedraCimaMeio
@@ -22162,6 +23769,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.374
       objectReference: {fileID: 0}
+    - target: {fileID: 6043380847114055302, guid: f978ffbd3b6142f4aa95322ef7ae780b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043380847114055302, guid: f978ffbd3b6142f4aa95322ef7ae780b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 8966437296433097829, guid: f978ffbd3b6142f4aa95322ef7ae780b, type: 3}
       propertyPath: m_Name
       value: PedraCImaEsq
@@ -22186,6 +23801,14 @@ PrefabInstance:
     - target: {fileID: 2431764605022204357, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_Name
       value: TerraSolo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824267674853306638, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
       objectReference: {fileID: 0}
     - target: {fileID: 5353150980783255688, guid: 7b480b6653867d140a18d942a008efc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -22248,6 +23871,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 2689049433416044396, guid: 174c3514c79167d4b8b82c30e8af412a, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689049433416044396, guid: 174c3514c79167d4b8b82c30e8af412a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 6921192303135635263, guid: 174c3514c79167d4b8b82c30e8af412a, type: 3}
       propertyPath: m_Name
       value: PedraCimaDir
@@ -22422,6 +24053,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064219687169865222, guid: 3f7c4837e9a948942bb675bc7fbfa22b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22433,7 +24072,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 42959173}
     m_Modifications:
     - target: {fileID: 100307216987520939, guid: dc9214006c6e83a4eb880c38f8402894, type: 3}
       propertyPath: m_IsActive
@@ -22629,6 +24268,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PedraCimaEsq
       objectReference: {fileID: 0}
+    - target: {fileID: 8267689761814001034, guid: fd48b83d428f31342b33956b29a54c45, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8267689761814001034, guid: fd48b83d428f31342b33956b29a54c45, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 9014109895220749364, guid: fd48b83d428f31342b33956b29a54c45, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -22690,6 +24337,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 1431124516690199827, guid: 05e111cbdddee29409affec33aff9d95, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431124516690199827, guid: 05e111cbdddee29409affec33aff9d95, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 1479011426946878088, guid: 05e111cbdddee29409affec33aff9d95, type: 3}
       propertyPath: m_Name
       value: PedraMeioDir
@@ -22755,6 +24410,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1873540069}
     m_Modifications:
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 73301119738522362, guid: ab4dead91a08096449369096c06bb95b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9006194
+      objectReference: {fileID: 0}
     - target: {fileID: 7630511680269080722, guid: ab4dead91a08096449369096c06bb95b, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.638237
@@ -22821,28 +24484,12 @@ SceneRoots:
   - {fileID: 1263270412}
   - {fileID: 1873540069}
   - {fileID: 1253496456}
-  - {fileID: 1387798137}
-  - {fileID: 531843684}
   - {fileID: 1517531856}
-  - {fileID: 2026626636}
   - {fileID: 956066082}
-  - {fileID: 5825343851780340167}
-  - {fileID: 571576254}
   - {fileID: 1485653037}
   - {fileID: 1017151935}
   - {fileID: 2014208975}
   - {fileID: 1040993538}
-  - {fileID: 917908894}
   - {fileID: 582322239}
   - {fileID: 1919747922}
-  - {fileID: 470283494}
-  - {fileID: 689324609}
-  - {fileID: 1914456171}
-  - {fileID: 2131890248}
-  - {fileID: 288473922}
-  - {fileID: 34443017}
-  - {fileID: 316926981}
-  - {fileID: 170695728}
-  - {fileID: 846474089}
-  - {fileID: 935655263}
-  - {fileID: 350324422}
+  - {fileID: 42959173}

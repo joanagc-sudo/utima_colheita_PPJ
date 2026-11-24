@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fundoOpcoesDesfocado_0: 1525287119821852299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
