@@ -178,7 +178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6420364420485922405, guid: 4a3b42822492e5b4e85f887df73b6ffc, type: 3}
+  m_Sprite: {fileID: -3532496383590347944, guid: 3c7d73741cd1bfc4987a86a55c013da4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -658,8 +658,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 248526115}
-        m_TargetAssemblyTypeName: Script, Assembly-CSharp
-        m_MethodName: 
+        m_TargetAssemblyTypeName: TelaInicial, Assembly-CSharp
+        m_MethodName: fecharJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -889,7 +889,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1757753877}
   m_OnClick:
     m_PersistentCalls:
