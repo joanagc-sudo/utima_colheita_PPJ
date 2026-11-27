@@ -111,7 +111,7 @@ public class Controle : MonoBehaviour
         );
 
         // IGNORAR COLISÃO AO SUBIR
-        int layerChao = LayerMask.NameToLayer("Chao");
+        int layerChao = LayerMask.NameToLayer("chao");
 
         if (layerChao != -1)
         {

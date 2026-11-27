@@ -14,7 +14,11 @@ public class SeguirPlataforma : MonoBehaviour
     {
         if (colisao.gameObject.CompareTag("PlataformaMovel"))
         {
-            transform.SetParent(null);
+            if (transform.parent == colisao.transform &&
+                colisao.gameObject.activeInHierarchy)
+            {
+                transform.SetParent(null, true);
+            }
         }
     }
 }
